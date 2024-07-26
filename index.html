@@ -3,14 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyPortfolio</title>
     <link rel="icon" type="img/png" href="https://www.google.com/s2/u/0/favicons?domain=">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <i class="fa-solid fa-truck-plane"></i>
+    <!-- navbar section -->
+    <div class="nav-mobile">
+        <ul class="nav-ul-mobile">
+            <li class="nav-item-mobile"><a href = "">Home</a></li>
+            <li class="nav-item-mobile"><a href = "">About</a></li>
+            <li class="nav-item-mobile"><a href = "">Projects</a></li>
+            <li class="nav-item-mobile"><a href = "">Contact</a></li>
+        </ul>
+    </div>
+    <nav class="navbar">
+        <div class="nav-logo">Portfolio</div>
+        <button id="hamburger"><i class="fas fa-bars"></i></button>
+        <ul class="nav-ul">
+            <li class="nav-item"><a href="">Home</a></li>
+            <li class="nav-item"><a href="">About</a></li>
+            <li class="nav-item"><a href="">Projects</a></li>
+            <li class="nav-item"><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- welcome section -->
+    <section id="home" class="section-welcome scroll">
+        <div class="welcome">
+            <div class="welcome-msg">
+                <p data-aos="fade-down">Hello, </p>
+                <p class="p-bigger" data-aos="fade-right">My name is <span>Chelsea Wang</span></p>
+            </div>
+            <div class="welcome-project">
+                <p class="view-projects">View My Projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="section-about section scroll">
+        <div class="section-header">About Me</div>
+        <div class="about-container">
+            
+            <div class="about-desc" data-aos="fade-right">
+                <div>
+                    <ul>
+                        <h2>Skills</h2>
+                        <li>Python</li>
+                        <li>Swift</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <img class="about-img" src="" alt="resume">
+                <a class="resume-btn" href="" target="blank"><i class="far fa-file"></i>My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects" class="section-projects section scroll">
+        <div class="section-header">My Projects</div>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-img" data-aos="fade-right">
+                    <img src="" alt="project">
+                </div>
+                <div class="project-info" data-aos="fade-left">
+                    <p class="project-header">Memo App</p>
+                    <div class="project-desc">
+                        Memo is a productivity app. Upon opening the app, a random inspirational quote is generated. Memo contains a todo list that allows you to add and complete tasks and mark their urgency. There is also a notepad section, although notes are not saved.
+                    </div>
+                    <div class="project-buttons">
+                        <a href="" target="_blank"><button>See Live</button></a>
+                        <a href="" target="_blank"><button>Source Code</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img" data-aos="flip-left">
+                    <img src="" alt="project">
+                </div>
+                <div class="project-info" data-aos="flip-right">
+                    <p class="project-header">Mental Health Website</p>
+                    <div class="project-desc">
+                        This website draws attention to the issue of a lack of awareness around mental health in the workplace. It includes real life statistics about mental health in the workplace and resources available to those who need it.
+                    </div>
+                    <div class="project-buttons">
+                        <a href="" target="_blank"><button>See Live</button></a>
+                        <a href="" target="_blank"><button>Source Code</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img" data-aos="fade-right">
+                    <img src="" alt="project">
+                </div>
+                <div class="project-info" data-aos="fade-left">
+                    <p class="project-header">Percussion Website</p>
+                    <div class="project-desc">
+                        description about website + code
+                    </div>
+                    <div class="project-buttons">
+                        <a href="" target="_blank"><button>See Live</button></a>
+                        <a href="" target="_blank"><button>Source Code</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img" data-aos="flip-left">
+                    <img src="" alt="project">
+                </div>
+                <div class="project-info" data-aos="flip-right">
+                    <p class="project-header">Project Name</p>
+                    <div class="project-desc">
+                        project description
+                    </div>
+                    <div class="project-buttons">
+                        <a href="" target="_blank"><button>See Live</button></a>
+                        <a href="" target="_blank"><button>Source Code</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact Me -->
+     <section id="contact" class="section-contact section">
+
+        <div class="section-header scroll">Contact</div>
+        <div class="contact-container">
+            
+            <div class="contact">
+                <h3>
+                    Please contact me through any of the below:
+                </h3>
+                <br>
+                <ul>
+                    <li>
+                        <h3>
+                            <a href="" target="_blank"><i class="fas fa-phone-volume">669-252-9373</i></a>
+                        </h3>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <a href="mailto:chelsearxwang@gmail.com" target="_blank"><i class="fas fa-envelope"></i>chelsearxwang@gmail.com</a>
+                        </h3>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <a href="https://github.com/chelsearwang" target="_blank"><i class="fab fa-github"></i>https://github.com/chelsearwang</a>
+                        </h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+     </section>
+
     <!-- Script -->
     <script src="script.js"></script>
+    <script src="navbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400, 
+            duration: 1500, 
+            easing: 'ease',
+        });
+    </script>
+
+    <footer>created by chelsea wang 2024</footer>
 </body>
 </html>
